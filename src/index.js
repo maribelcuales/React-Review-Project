@@ -5,11 +5,13 @@ import './index.css';
 // import Car from './Car';
 // import CarModel from './CarModel';
 // import MyCar from './MyCar.js';
-import Header from './Header.js';
+//import Header from './Header.js';
+import FaveColor from './FaveColor.js';
 
 
 ReactDOM.render(
-  <Header favCol="yellow"/>,
+  <FaveColor />,
+  // <Header favCol="yellow"/>,
   // <MyCar />,
   // <CarModel model="Ford Mustang"/>,
   //<Car />,
