@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 class MyCar extends React.Component {
   constructor(props) {
@@ -10,6 +10,9 @@ class MyCar extends React.Component {
       year: 1968
     };
   }
+  changeColor = () => {
+    this.setState({ color: "blue" });
+  };
   render() {
     return (
       <div>
@@ -17,6 +20,9 @@ class MyCar extends React.Component {
         <p>
           It is a {this.state.color} {this.state.model} from {this.state.year}.
         </p>
+        <button type="button" onClick={this.changeColor}>
+          Change Color
+        </button>
       </div>
     );
   }
