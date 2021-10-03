@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Car from './Car';
 // import App from './App';
+// import Car from './Car';
+import CarModel from './CarModel';
 
 
 ReactDOM.render(
-  <Car />,
+  <CarModel model="Ford Mustang"/>,
+  //<Car />,
   //<App />, 
   document.getElementById('root')
 );
