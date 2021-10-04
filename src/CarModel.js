@@ -6,6 +6,7 @@ class CarModel extends React.Component {
     this.state = {favoriteModel:"Ferrari"}
   }
   shouldComponentUpdate(){
+    // Returning 'true' will update favorite model to Lamborgini
     return false;
   }
   changeColor = () => {

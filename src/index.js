@@ -2,18 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-// import Car from './Car';
-// import CarModel from './CarModel';
-// import MyCar from './MyCar.js';
-// import FaveColor from './FaveColor.js';
-import Header from './Header.js';
-
+// import Header from './Header.js';
+import CarModel from './CarModel';
 
 ReactDOM.render(
-  <Header favCol="yellow"/>,
-  // <MyCar />,
-  // <CarModel model="Ford Mustang"/>,
-  //<Car />,
   //<App />, 
+  //<Header favCol="yellow"/>,
+  <CarModel />,
   document.getElementById('root')
 ); 
