@@ -5,16 +5,15 @@ import './index.css';
 // import Car from './Car';
 // import CarModel from './CarModel';
 // import MyCar from './MyCar.js';
-//import Header from './Header.js';
-import FaveColor from './FaveColor.js';
+// import FaveColor from './FaveColor.js';
+import Header from './Header.js';
 
 
 ReactDOM.render(
-  <FaveColor />,
-  // <Header favCol="yellow"/>,
+  <Header favCol="yellow"/>,
   // <MyCar />,
   // <CarModel model="Ford Mustang"/>,
   //<Car />,
   //<App />, 
   document.getElementById('root')
-);
+); 

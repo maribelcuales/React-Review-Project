@@ -15,7 +15,7 @@ class Header extends React.Component {
     return (
       <div>
       <h1>My Favorite Color is {this.state.favoriteColor}</h1>
-      <button type="button" onClick={this.changeColor}Change Color></button>
+      <button type="button" onClick={this.changeColor}>Change Color</button>
       </div>
     );
   }
