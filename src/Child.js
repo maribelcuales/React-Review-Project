@@ -6,7 +6,7 @@ class Child extends React.Component {
   }
   render() {
     return (
-      <h1>No more header.</h1>
+      <h1>This is the Header.</h1>
     );
   }
 }

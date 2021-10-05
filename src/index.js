@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import RedHeader from './RedHeader.js';
+import Container from './Container';
 
 ReactDOM.render(
   //<App />, 
   //<Header favCol="yellow"/>,
-  <RedHeader />,
+  <Container />,
   document.getElementById('root')
 ); 
