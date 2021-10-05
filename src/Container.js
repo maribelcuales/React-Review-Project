@@ -1,4 +1,5 @@
 import React from 'react';
+import Child from './Child.js';
 
 class Container extends React.Component {
   constructor(props) {
