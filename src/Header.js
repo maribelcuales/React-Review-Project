@@ -5,9 +5,9 @@ class Header extends React.Component {
     super(props);
     this.state = {favoriteColor: "red"};
   }
-  static getDerivedStateFromProps(props, state) {
-    return {favoriteColor: props.favCol};
-  }
+  //static getDerivedStateFromProps(props, state) {
+  //  return {favoriteColor: props.favCol};
+  //}
   changeColor = () => {
     this.setState({favoriteColor: "blue"});
   }
