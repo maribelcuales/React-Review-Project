@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Container from './Container';
+import Garage from './Garage';
 
 ReactDOM.render(
   //<App />, 
   //<Header favCol="yellow"/>,
-  <Container />,
+  <Garage />,
   document.getElementById('root')
 ); 
