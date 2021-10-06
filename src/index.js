@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Garage from './Garage';
+import CarName from './CarName';
 
 ReactDOM.render(
   //<App />, 
   //<Header favCol="yellow"/>,
-  <Garage />,
+  <CarName />,
   document.getElementById('root')
 ); 
