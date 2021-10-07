@@ -6,12 +6,20 @@ function MadeGoal() {
   return <h1>Goal!</h1>
 }
 
-function Goal(props) {
+function GoalType(props) {
   const isGoal = props.isGoal;
+  /*
   if (isGoal) {
     return <MadeGoal />;
   }
   return <MissedGoal />;
+  */
+  // using a ternary operator
+  return (
+    <div>
+      {isGoal ? <MadeGoal/> : <MissedGoal/>}
+    </div>
+  );
 }
 
-export default Goal;
+export default GoalType;
