@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Goal from './Goal.js';
+import GoalType from './GoalType.js';
 
 ReactDOM.render(
   //<App />, 
   //<Header favCol="yellow"/>,
-  <Goal />,
+  <GoalType isGoal={true} />,
   document.getElementById('root')
 ); 
