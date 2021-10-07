@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import GoalType from './GoalType.js';
+import Garage from './Garage.js';
 
 //const cars = ['Ford', 'BMW', 'Audi'];
 
@@ -10,6 +10,7 @@ ReactDOM.render(
   //<App />, 
   //<Header favCol="yellow"/>,
   //<GarageCars cars={cars}/>,
-  <GoalType isGoal={true} />,
+  //<GoalType isGoal={true} />,
+  <Garage />,
   document.getElementById('root')
 ); 

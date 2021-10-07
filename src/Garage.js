@@ -3,10 +3,14 @@ function Car(props) {
 }
 
 function Garage() {
+  const cars = ['Ford', 'BMW', 'Audi'];
   return (
     <div>
       <h1>Who lives in my garage?</h1>
-      <Car brand="Mustang" />
+      {/* <Car brand="Mustang" /> */}
+      <ul>
+        {cars.map((car) => <Car brand={car} />)}
+      </ul>
     </div>
   );
 }
