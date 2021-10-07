@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Football from './Football';
+import Goal from './Goal.js';
 
 ReactDOM.render(
   //<App />, 
   //<Header favCol="yellow"/>,
-  <Football />,
+  <Goal />,
   document.getElementById('root')
 ); 
