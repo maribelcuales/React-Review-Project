@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import MyFormText from './MyFormText.js';
+import MyFormSelect from './MyFormSelect.js';
 
 //const cars = ['Ford', 'BMW', 'Audi'];
 
@@ -11,6 +11,6 @@ ReactDOM.render(
   //<Header favCol="yellow"/>,
   //<GarageCars cars={cars}/>,
   //<GoalType isGoal={true} />,
-  <MyFormText />,
+  <MyFormSelect />,
   document.getElementById('root')
 ); 
