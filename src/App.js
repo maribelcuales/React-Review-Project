@@ -1,13 +1,22 @@
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import Home from './pages/Home';
+import Blogs from './pages/Blogs';
+import Contact from './pages/Contact';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to my React Project!</h1>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Link to="/">Home</Link>
+      </div>
+      <div>
+        <Link to="/blogs">Blogs</Link>
+      </div>
+      <div>
+        <Link to="/contact">Contact</Link>
+      </div>
+    </Router>
   );
 }
 
-export default App;
