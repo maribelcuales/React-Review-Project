@@ -1,5 +1,10 @@
-$myColor: red;
+$myColor: pink;
+$myBackground: lightGreen;
 
 h1 {
   color: $myColor;
+}
+
+body {
+  background-color: $myBackground;
 }
