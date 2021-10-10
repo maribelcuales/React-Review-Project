@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 //import TodoApp from './Todos/TodoApp.js';
-import Plane from './Plane/Plane.js';
+import FavoriteColor from './Color/FavoriteColor.js';
 
 //const cars = ['Ford', 'BMW', 'Audi'];
 
 ReactDOM.render(
-  <Plane />,
+  <FavoriteColor />,
   //<App />, 
   //<Header favCol="yellow"/>,
   //<GarageCars cars={cars}/>,
