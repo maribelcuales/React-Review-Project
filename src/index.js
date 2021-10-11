@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 //import TodoApp from './Todos/TodoApp.js';
-import FavoriteCar from './Car/FavoriteCar.js';
+import CarObject from './Car/CarObject.js';
 
 //const cars = ['Ford', 'BMW', 'Audi'];
 
 ReactDOM.render(
-  <FavoriteCar />,
+  <CarObject />,
   //<App />, 
   //<Header favCol="yellow"/>,
   //<GarageCars cars={cars}/>,
