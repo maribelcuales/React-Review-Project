@@ -8,6 +8,12 @@ function CarObject() {
     color: "red" 
   });
 
+  const updateColor = () => {
+    setCar(previousState => {
+      return { ...previousState, color: "blue" }
+    });
+  }
+
   return (
     <>
       <h1>My {car.brand}</h1>
