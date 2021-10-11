@@ -20,6 +20,10 @@ function CarObject() {
       <p>
         It is a {car.color} {car.model} from {car.year}.
       </p>
+      <button
+        type="button"
+        onClick={updateColor}
+      >Blue</button>
     </>
   )
 }
