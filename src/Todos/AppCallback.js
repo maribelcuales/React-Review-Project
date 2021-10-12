@@ -1,3 +1,4 @@
+// Used useCallback Hook to prevent the Todos component from re-rendering needlessly 
 import { useState, useCallback } from "react";
 import TodoCallback from "./TodoCallback.js";
 

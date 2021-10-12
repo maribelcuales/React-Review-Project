@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 //import TodoApp from './Todos/TodoApp.js';
-import TodoCounter from './Todos/TodoCounter.js';
+import AppCallback from './Todos/AppCallback.js';
 
 //const cars = ['Ford', 'BMW', 'Audi'];
 
 ReactDOM.render(
-<TodoCounter />,
+<AppCallback />,
   //<App />, 
   //<Header favCol="yellow"/>,
   //<GarageCars cars={cars}/>,
