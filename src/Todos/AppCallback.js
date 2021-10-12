@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import TodoCallback from "./TodoCallback.js";
 
 const AppCallback = () => {
@@ -9,9 +9,9 @@ const AppCallback = () => {
     setCount((c) => c + 1);
   };
 
-  const addTodo = () => {
+  const addTodo = useCallback(() => {
     setTodos((t) => [...t, "New Todo"]);
-  };
+  }, [todos]);
 
   return (
     <>
