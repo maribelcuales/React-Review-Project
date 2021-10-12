@@ -1,3 +1,4 @@
+// Fetching dasta in our Home component and displaying it 
 import { useState, useEffect } from "react";
 
 const Home = () => {
