@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 //import TodoApp from './Todos/TodoApp.js';
-import AppPrevState from './App/AppPrevState.js';
+import TodoCounter from './Todos/TodoCounter.js';
 
 //const cars = ['Ford', 'BMW', 'Audi'];
 
 ReactDOM.render(
-<AppPrevState />,
+<TodoCounter />,
   //<App />, 
   //<Header favCol="yellow"/>,
   //<GarageCars cars={cars}/>,
